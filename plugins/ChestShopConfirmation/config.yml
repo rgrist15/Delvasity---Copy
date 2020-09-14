@@ -1,0 +1,157 @@
+# Do not change!
+ConfigVersion: 1.2
+Settings:
+  CommandSound:
+    success:
+      sound: ORB_PICKUP
+    error:
+      sound: ORB_PICKUP
+  # Enable plugin's functionality?
+  enableConfirmation: true
+  # Confirmation delay in second. So after 10 second player will get prompted by the confirmation dialog
+  # when they trying to purchase from a shop. Set this to 0 to disable
+  confirmationDelay: 10
+  # The currency symbol
+  currencySymbol: '$'
+  # The plugin prefix
+  prefix: '&7[ &bConfirmation &7]&f '
+  # Should we enable the log file?
+  enableLogFile: true
+  # Timeout for right click request in second
+  rightClickTimeout: 5
+  # Transaction type translation, also support for special character and color
+  transactionType:
+    BUY: 'Buy'
+    SELL: 'Sell'
+    SELL_STACK: 'Sell Stack'
+    BUY_STACK: 'Buy Stack'
+  # The price format. This will format the price from 1000 to 1k!
+  PriceFormat:
+    enable: true
+    THOUSANDS: 'k'
+    MILLIONS: 'M'
+    BILLIONS: 'B'
+    TRILLIONS: 'T'
+# Available key :
+    #  material > Material as string (String)
+    #   example > DIRT
+    #  itemID > The durability or item ID , useful for custom item texture or specifying item type(int)
+    #   example > 5
+    #  amount > The item amount (int)
+    #   example > 5
+    #  name > The item displayName (String)
+    #   example > '&7[ &bHello World &7]'
+    #  lore > The item lore (List String)
+    #   example > - 'Hello'
+    #             - 'World'
+    #  glow > Set the item glow or not (bool)
+    #   example > true or false
+    #  texture > The head texture url (String)
+    #   example > http://textures.minecraft.net/texture/d67470a0c18f6851e914353719e795877d29b3252f7e6bd4a1b865765bd74feb
+    # For material list you can find it here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+  # The confirmation rule. The confirmation will only open if the requirement are set
+  # Syntax : <world, all>:<BUY, SELL, SELL_STACK, BUY_STACK, ALL>
+  # also support for extra rule (ex: BUY, SELL)
+  ConfirmationOpenRule:
+    - 'all:ALL'
+    # ^ Will open on every world for both transaction type, its recommended to keep this one here
+    #- 'world:BUY' # Will only open in world = world and when the transaction type is BUY. This will override the 'all'
+    #- 'survival:BUY_STACK' # Will only open in world = survival and when the transaction type is BUY_STACK. This will override the 'all'
+  # If this set to true then player who have 'csc.bypass' permission will be able to bypass the confirmation gui!
+  AllowBypass: true
+Inventory:
+  Confirmation:
+    # Sound list can be found at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+    clickSound:
+      sound: CLICK
+    openSound:
+      sound: CHEST_OPEN
+    closeSound:
+      sound: CHEST_CLOSE
+    # Available placeholders:
+    # %item_name%, %transaction_type%
+    # %currency_symbol%, %item%, %price%
+    title: '&7[&e%transaction_type%&7]&f Confirm'
+    FillEmpty:
+      # Should we fill it?
+      should: true
+      # The item. Format is same as above
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: '.'
+    enablePreview: true
+    AcceptButton:
+      slot: 10
+      material: PLAYER_HEAD
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMwZjQ1MzdkMjE0ZDM4NjY2ZTYzMDRlOWM4NTFjZDZmN2U0MWEwZWI3YzI1MDQ5YzlkMjJjOGM1ZjY1NDVkZiJ9fX0='
+      name: '&aConfirm'
+      lore:
+        - '&7Click to &a%transaction_type%'
+    DeclineButton:
+      slot: 16
+      material: PLAYER_HEAD
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2Nzg3YmEzMjU2NGU3YzJmM2EwY2U2NDQ5OGVjYmIyM2I4OTg0NWU1YTY2YjVjZWM3NzM2ZjcyOWVkMzcifX19'
+      name: '&cCancel'
+      lore:
+        - '&7Click to close the inventory'
+    # Available placeholders:
+    # %item_lore%, %item_name%, %transaction_type%
+    # %currency_symbol%, %item%, %price%
+    ItemPreviewButton:
+      slot: 13
+      material: DIRT # Don't worry, this will change. Depending on what item is inside
+      name: '&7[&e%transaction_type%&7]&f %item_name%'
+      lore:
+        - '&aShop Information:'
+        - ' &7Owner: &e%shop_owner%'
+        - ' &7%transaction_type% Price: &e%currency_symbol%%price%'
+        - ' &7Item type: &e%item% &7(x%item_amount%&7)'
+        - '&aLore:'
+        - '%item_lore%' # You can remove this if you want to
+        - '&aEnchant(s):'
+        - '%item_enchants%'
+        - '&aFlag(s):'
+        - '%item_flags%'
+  Information:
+    title: 'Information'
+    # Sound list can be found at https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+    clickSound:
+      sound: CLICK
+    openSound:
+      sound: CHEST_OPEN
+    closeSound:
+      sound: CHEST_CLOSE
+    FillEmpty:
+      # Should we fill it?
+      should: true
+      # The item. Format is same as above
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        itemID: 7
+        name: '.'
+    InformationButton:
+      material: PAPER
+      slot: 13
+      name: '&aInformation'
+      lore:
+        - '&7(&e%transaction_type%-ing &7item is disabled on this shop&7)'
+# All plugin messages goes here
+Messages:
+  cant-open-chest: '&fCan''t do that right now..'
+  right-click-to-disable: 'Right click on any shop to disable the confirmation for that shop. Time left &e%time% second'
+  right-click-to-enable: 'Right click on any shop to enable the confirmation for that shop. Time left &e%time% second'
+  confirmation-disabled: 'Confirmation has been &cdisabled &ffor every shop! (Your account only). Run this command again to &aenable'
+  confirmation-enabled: 'Confirmation has been &aenabled &ffor every shop! (Your account only). Run this command again to &cdisable'
+  shop-disabled: 'Confirmation for clicked shop has been &cdisabled!'
+  shop-enabled: 'Confirmation for clicked shop has been &aenabled!'
+  shop-already-disabled: 'Confirmation already disabled for that shop'
+  shop-already-enabled: 'Confirmation already enabled for that shop'
+  time-out: 'Time out!'
+  empty: '&7(Empty)'
+  command:
+    no-permission: 'You don''t have the right permission to run this command!'
+    invalid-arg: 'Invalid command!'
+    config-reloaded: 'Config has been reloaded!'
+    confirmation-disabled-global: '&eConfirmation &fhas been &cdisabled &fglobally!'
+    confirmation-enabled-global: '&eConfirmation &fhas been &aenabled &fglobally!'
+    player-only: 'Player only command!'

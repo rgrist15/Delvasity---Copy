@@ -1,0 +1,79 @@
+# Setting for plugin
+ConfigVersion: '11.1'
+Settings:
+  # Should we disable the notification on join?. Keep in mind that notification is only available for player who have oreocore.admin permission
+  disable-notification-on-join: false
+  # This will create a sql database. (playerdata.db) it's useful for cracked server to find
+  # player uuid easily by name. Recommended to keep this to true if your server is a cracked server a.k.a offline mode is true
+  cache-player-information: true
+  # For fast player head getting. This is async, and will not cause that much impact
+  # if the server is lagging when player joining simply disable this and restart the server
+  cache-player-head: true
+  # Use this to turn on or off hooked plugin's debugging
+  # this will only cancel the debug message with [ OreoCore ] prefix that is
+  # related to the plugin. The container will be updated automatically
+  # depending on what plugin is currently installed on the server
+  debugging:
+    ChestShopConfirmation: false
+# ODebug value do not modify
+Annotation:
+  test: 'Working!'
+Title:
+  test:
+    title: '&bHello!'
+    sub-title: '&fThis is a test title!'
+    fade-in: 20
+    stay: 40
+    fade-out: 20
+Enum:
+  test: 'HEAD'
+Inventory:
+  Test:
+    title: Test layout
+    layout:
+    - 'BBBBBBBBB'
+    - '%wow%'
+    layout-item:
+      B:
+        material: DIRT
+        name: '&aOh wow'
+        lore:
+        - '&7Test button'
+    paginated: false
+    size: 27
+Inventory-Placeholder:
+  placeholder: '%wow%'
+  placeholder-layout:
+  - 'XXXXXXXXX'
+  - 'PX_____XN'
+  placeholder-item:
+    P:
+      name: '&aPrevious Inventory'
+      material: 'PLAYER_HEAD'
+      texture-url: 'bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'
+      lore:
+      - '&aClick &7to go to previous inventory'
+    N:
+      name: '&aNext Inventory'
+      material: 'PLAYER_HEAD'
+      texture-url: '19bf3292e126a105b54eba713aa1b152d541a1d8938829c56364d178ed22bf'
+      lore:
+      - '&aClick &7to go to next inventory'
+    X:
+      name: '.'
+      material: 'IRON_BARS'
+    _:
+      material: 'AIR'
+ItemStackBuilderTest:
+  material: 'DIRT'
+  name: '&aDirt?'
+  lore:
+  - '&7Diamond hell yeah?'
+  conditions:
+    is-op:
+      true:
+        material: 'DIAMOND'
+        name: '&aHello World'
+        lore:
+        - '&7Yes a diamond for OP!'
+

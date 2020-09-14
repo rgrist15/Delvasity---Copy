@@ -1,0 +1,24 @@
+lastAccountName: HyperoftheSnxper
+timestamps:
+  login: 1600033094890
+  logout: 1600037425919
+  lastteleport: 1600018569335
+  jail: 0
+  mute: 0
+ipAddress: 86.130.102.190
+lastlocation:
+  world: world_nether
+  x: -267.7761753158308
+  y: 82.0
+  z: -949.7131466460793
+  yaw: 212.0387
+  pitch: 14.312286
+logoutlocation:
+  world: world
+  x: -51.585976569646796
+  y: 71.0
+  z: 3575.532011104052
+  yaw: 302.24707
+  pitch: 2.1241548
+jailed: false
+muted: false

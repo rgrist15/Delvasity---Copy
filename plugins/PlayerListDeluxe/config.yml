@@ -1,0 +1,84 @@
+ignore-dependencies-warnings: false
+tablist-enabled: true
+slot-length:
+   max-length: 128
+   min-length: 0
+   limiter: "..."
+offline-players:
+#  offline player placeholders
+#  {player_name} {player_displayname} - Show player name
+#  {player_uuid} - Show player UUID
+#  {player_is_op} - Is op? true / false
+#  {player_is_banned} - Is the player banned?
+#  {player_is_whitelisted} - Is the player whitelisted?
+#  {player_is_online} - Is the player online?
+   enable: false
+   # time parsing
+   # d : days
+   # h : hours
+   # it will purge the offline players database everytime
+   # the server started
+   purgetime: '30d'
+script-engine:
+#  script engine variables to fix nasty placeholder conditions
+   bindings:
+   # this will replace "yes" to "true" in the script
+      "yes": true
+   # this will replace "no" to "false" in the script
+      "no": false
+   # this will replace "one" to "1" in the script, yes this is useless, but just fox example
+   # that this accepts anything including string, number, boolean, map, list
+      "one": 1
+fake-player:
+   enable: true
+   # default placeholder for all fake players
+   default-placeholder:
+   #  FAKE PLAYER PLACEHOLDER
+   #  built-in placeholder:
+   #  {fakeplayer_name} - Shows the name of fake player
+   #  {fakeplayer_uuid} - Shows the fake player UUID
+      statistic_deaths: 0
+      # usage: {statistic_deaths}
+      custom_placeholder: 'nothing'
+      # usage: {custom_placeholder}
+      player_name: '{fakeplayer_name}'
+      player_displayname: '{fakeplayer_name}'
+      player_uuid: '{fakeplayer_uuid}'
+      player_listname: '{fakeplayer_name}'
+   server-list:
+      player-count: true
+      player-list: true
+skin-mode:
+   force: false
+task:
+#  globally set the interval and delay for all tasks
+#  in ticks
+   interval: 20
+worldBlacklist:
+- NoTablistWorld
+- IHateTablist
+custom-placeholders:
+#  usage: {<placeholder name>_<parameter>}
+#  javascript variable:
+#     player - the player
+#     server - the server (org.bukkit.Bukkit)
+#     param - the placeholder parameter (example, placeholder {dummy_lolololol} then the param is "lolololol" in string type
+   playerlocation: |-
+      var loc = player.getLocation();
+      loc.getWorld().getName() + ' ' + loc.getBlockX() + ', ' + loc.getBlockY() + ', ' + loc.getBlockZ();
+   fixEnum: |-
+      var par = param == null ? '' : param.replace(/_/g, ' ');
+      par.isEmpty() ? par : par.length() == 1 ? par.toUpperCase() : par.substring(0,1).toUpperCase() + par.substring(1).toLowerCase();
+   reverse: |-
+      param == null ? '' : param.split('').reverse().join('')
+   isRich:
+      condition: '{vault_eco_balance} > 1000'
+      true: 'yes'
+      false: 'no'
+   isAwesome:
+      requireParams: true
+      condition: "param == 'Septogeddon'"
+      true: 'param is awesome'
+      false: 'param is not awesome' 
+
+# HANDLERS MOVED TO HANDLER.YML   

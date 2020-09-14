@@ -1,0 +1,25 @@
+lastAccountName: riley_grist
+timestamps:
+  login: 1600033060489
+  logout: 1600033903216
+  lastteleport: 1600033242809
+  jail: 0
+ipAddress: 192.168.1.210
+lastlocation:
+  world: Random
+  x: -512.4215705396612
+  y: 71.62218092194887
+  z: 273.2416603167445
+  yaw: 157.35
+  pitch: 2.850002
+logoutlocation:
+  world: world
+  x: -494.74074014026854
+  y: 71.48369066232635
+  z: 307.7319368938987
+  yaw: 40.499943
+  pitch: 22.79998
+afk: false
+nickname: Riley_Grist
+jailed: false
+money: '9868330.94'

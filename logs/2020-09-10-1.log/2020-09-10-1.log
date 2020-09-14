@@ -1,0 +1,86 @@
+[03:57:46] [Craft Scheduler Thread - 71/INFO]: [Vault] Checking for Updates ... 
+[03:57:48] [Craft Scheduler Thread - 71/INFO]: [Vault] No new version available
+[08:15:06] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;32;22mRunning [0;36;1mLuckPerms v5.1.106[0;32;22m.[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp user <user>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp group <group>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp track <track>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp log[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp sync[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp info[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp editor [type][m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp verbose <on|record|off|upload> [filter][m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp tree [scope] [player][m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp search <permission>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp check <user> <permission>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp networksync[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp import <file>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp export <file>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp reloadconfig[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp bulkupdate[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp creategroup <group>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp deletegroup <group>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp listgroups[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp createtrack <track>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp deletetrack <track>[m
+[08:15:06] [pool-12-thread-1/INFO]: [0;36;22m> [0;32;1m/lp listtracks[m
+[08:16:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1mAn update task has been requested. Please wait...[m
+[08:16:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;32;1mUpdate task complete. Now attempting to push to other servers.[m
+[08:16:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;31;1mError whilst pushing changes to other servers. [0;37;22m(a messaging service has not been configured)[m
+[08:16:45] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1mAn update task has been requested. Please wait...[m
+[08:16:46] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;32;1mUpdate task complete.[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22m[21mCommand Usage [0;36;22m- [0;36;1mBulkUpdate[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m> [0;37;22mExecute bulk change queries on all data[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mArguments:[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m- [0;30;1m<[0;37;22mdata type[0;30;1m>[0;36;22m -> [0;37;22mthe type of data being changed. ('all', 'users' or 'groups')[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m- [0;30;1m<[0;37;22maction[0;30;1m>[0;36;22m -> [0;37;22mthe action to perform on the data. ('update' or 'delete')[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m- [0;30;1m[[0;37;22maction field[0;30;1m][0;36;22m -> [0;37;22mthe field to act upon. only required for 'update'. ('permission', 'server' or 'world')[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m- [0;30;1m[[0;37;22maction value[0;30;1m][0;36;22m -> [0;37;22mthe value to replace with. only required for 'update'.[m
+[08:16:56] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;1m- [0;30;1m[[0;37;22mconstraint...[0;30;1m][0;36;22m -> [0;37;22mthe constraints required for the update[m
+[08:17:57] [Server thread/INFO]: Incorrect argument for command
+[08:17:57] [Server thread/INFO]: ...lvasitylp editor<--[HERE]
+[08:18:54] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;37;22mPreparing a new editor session. Please wait...[m
+[08:18:55] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;32;1mClick the link below to open the editor:[m
+[08:18:55] [pool-12-thread-1/INFO]: [0;36;1mhttps://luckperms.net/editor/mNxtpH4ZXS[m
+[09:57:46] [Craft Scheduler Thread - 136/INFO]: [Vault] Checking for Updates ... 
+[09:57:47] [Craft Scheduler Thread - 136/INFO]: [Vault] No new version available
+[13:05:01] [User Authenticator #2/INFO]: UUID of player Robanomi is f05d718b-5ede-37f4-a555-1c8768271945
+[13:05:02] [Server thread/INFO]: Robanomi has made the advancement [Getting an Upgrade]
+[13:05:02] [Server thread/INFO]: Robanomi[/85.76.34.205:40724] logged in with entity id 3725 at ([world]-504.5, 63.0, 313.5)
+[13:05:02] [pool-14-thread-1/INFO]: Creating empty config: C:\Users\test\Desktop\Delvasity\plugins\Essentials\userdata\f05d718b-5ede-37f4-a555-1c8768271945.yml
+[13:05:17] [Server thread/INFO]: Robanomi lost connection: Disconnected
+[13:05:17] [Server thread/INFO]: Robanomi left the game
+[13:05:28] [User Authenticator #3/INFO]: UUID of player Robanomi is f05d718b-5ede-37f4-a555-1c8768271945
+[13:05:28] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@5b8e0d8f[id=f05d718b-5ede-37f4-a555-1c8768271945,name=Robanomi,properties={},legacy=false] (/85.76.34.205:7607): You must wait 34 seconds before logging-in again.
+[13:05:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@5b8e0d8f[id=f05d718b-5ede-37f4-a555-1c8768271945,name=Robanomi,properties={},legacy=false] (/85.76.34.205:7607) lost connection: You must wait 34 seconds before logging-in again.
+[13:05:52] [User Authenticator #4/INFO]: UUID of player Robanomi is f05d718b-5ede-37f4-a555-1c8768271945
+[13:05:52] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@515685fd[id=f05d718b-5ede-37f4-a555-1c8768271945,name=Robanomi,properties={},legacy=false] (/85.76.34.205:34744): You must wait 9 seconds before logging-in again.
+[13:05:52] [Server thread/INFO]: com.mojang.authlib.GameProfile@515685fd[id=f05d718b-5ede-37f4-a555-1c8768271945,name=Robanomi,properties={},legacy=false] (/85.76.34.205:34744) lost connection: You must wait 9 seconds before logging-in again.
+[13:06:21] [User Authenticator #5/INFO]: UUID of player Robanomi is f05d718b-5ede-37f4-a555-1c8768271945
+[13:06:22] [Server thread/INFO]: Robanomi[/85.76.34.205:48656] logged in with entity id 3798 at ([world]-497.5, 138.0, 318.5)
+[13:07:38] [Server thread/INFO]: Robanomi issued server command: /tpa Robanomi
+[13:07:45] [Server thread/INFO]: Robanomi issued server command: /tpaccept
+[13:07:51] [Server thread/WARN]: [TreeFeller] Loaded class me.ryanhamshire.GriefPrevention.GriefPrevention from GriefPrevention v16.14.0 which is not a depend, softdepend or loadbefore of this plugin.
+[13:10:11] [Server thread/INFO]: Robanomi issued server command: /kit Robanomi
+[13:11:10] [Server thread/INFO]: Robanomi lost connection: Disconnected
+[13:11:11] [Server thread/INFO]: Robanomi left the game
+[13:11:19] [User Authenticator #6/INFO]: UUID of player Robanomi is f05d718b-5ede-37f4-a555-1c8768271945
+[13:11:20] [Server thread/INFO]: Robanomi[/85.76.34.205:44744] logged in with entity id 5196 at ([world]-728.565721712132, 76.0, 164.45144426789128)
+[13:11:58] [Server thread/INFO]: Robanomi has made the advancement [Stone Age]
+[13:13:09] [Server thread/INFO]: Robanomi has made the advancement [Monster Hunter]
+[13:14:10] [Server thread/INFO]: Robanomi was slain by Zombie
+[13:14:37] [Server thread/INFO]: Robanomi issued server command: /kit calim starter
+[13:14:49] [Server thread/INFO]: Robanomi issued server command: /kit claim pvp
+[13:14:50] [Server thread/INFO]: Robanomi has made the advancement [Suit Up]
+[13:14:54] [Server thread/INFO]: Robanomi issued server command: /kit claim pvp
+[13:15:04] [Server thread/INFO]: Robanomi issued server command: /kit claim starter
+[13:15:37] [Server thread/INFO]: Robanomi has made the advancement [Take Aim]
+[13:16:44] [Server thread/INFO]: [Negativity] New Warning for Robanomi (88 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use Speed Reliability: 91 [world: -629,70,443]
+[13:18:49] [Server thread/INFO]: [Negativity] New Warning for Robanomi (71 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback 2 times Reliability: 100 [world: -548,66,386]
+[13:18:52] [Server thread/INFO]: [Negativity] New Warning for Robanomi (70 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback Reliability: 100 [world: -551,66,383]
+[13:18:53] [Server thread/INFO]: [Negativity] New Warning for Robanomi (69 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback Reliability: 100 [world: -551,66,383]
+[13:18:54] [Server thread/INFO]: [Negativity] New Warning for Robanomi (69 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback 2 times Reliability: 100 [world: -551,66,383]
+[13:18:55] [Server thread/INFO]: [Negativity] New Warning for Robanomi (68 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback 2 times Reliability: 100 [world: -551,66,383]
+[13:18:56] [Server thread/INFO]: Robanomi was slain by Zombie
+[13:18:56] [Server thread/INFO]: [Negativity] New Warning for Robanomi (68 ms, UUID: f05d718b-5ede-37f4-a555-1c8768271945) seem to use AntiKnockback Reliability: 100 [world: -551,66,383]
+[13:19:10] [Server thread/INFO]: Robanomi lost connection: Disconnected
+[13:19:11] [Server thread/INFO]: Robanomi left the game

@@ -1,0 +1,18 @@
+playername: R3D_Jive
+lang: en_US
+minerate-full-mined: 968
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 28
+cheats:
+  timer: 54
+  antiknockback: 3
+  fly: 1
+  chat: 1
+  nofall: 1
+  speed: 34
+creation-time: 1599749404922

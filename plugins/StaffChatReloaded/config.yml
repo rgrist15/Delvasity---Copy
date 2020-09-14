@@ -1,0 +1,39 @@
+#StaffChatReloaded Plugin - Xdlob9
+#Here are the messages for the StaffChat plugin
+#You can use upper-case, lower-case and color codes
+
+#Modify the $ symbols only if you know how to use them.
+
+#General Staff Chat Prefix
+Prefix: '&b[&6StaffChat&b]'
+
+#Staff Chat
+ChatFormat: '$prefix &f$player > &b$message'
+No_Permission: $prefix &4Hey! &cYou don't have access to that command!.
+Toggle_On: $prefix &7StaffChat toggled &aON!
+Toggle_Off: $prefix &7StaffChat toggled &cOFF!
+
+#---------------------------------------------------------------------------------#
+#Extra Chats
+
+#Mod Chat
+Mod_Prefix: '&b[&aMod&6Chat&b]'
+Mod_ChatFormat: '$modprefix &f$player > &b$modmessage'
+Mod_Toggle_On: $modprefix &7ModChat toggled &aON!
+Mod_Toggle_Off: $modprefix &7ModChat toggled &cOFF!
+
+#Admin Chat
+Admin_Prefix: '&b[&bAdmin&6Chat&b]'
+Admin_ChatFormat: '$adminprefix &f$player > &b$adminmessage'
+Admin_Toggle_On: $adminprefix &7AdminChat toggled &aON!
+Admin_Toggle_Off: $adminprefix &7AdminChat toggled &cOFF!
+
+#Helper Chat
+Helper_Prefix: '&b[&2Helper&6Chat&b]'
+Helper_ChatFormat: '$helperprefix &f$player > &b$helpermessage'
+Helper_Toggle_On: $helperprefix &7HelperChat toggled &aON!
+Helper_Toggle_Off: $helperprefix &7HelperChat toggled &cOFF!
+
+#---------------------------------------------------------------------------------#
+#Other Messages and options
+Reloaded: $prefix &cStaffChat has been reloaded.

@@ -1,0 +1,19 @@
+playername: riley_grist
+lang: en_US
+minerate-full-mined: 1141
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 12
+  coal: 2
+  ancient debris: 0
+better-click: 10
+cheats:
+  timer: 83
+  antiknockback: 3
+  fastbow: 1
+  nuker: 1
+  chat: 1
+  blink: 1
+  speed: 4
+creation-time: 1599756883372

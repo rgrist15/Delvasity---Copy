@@ -1,0 +1,26 @@
+lastAccountName: Robanomi
+timestamps:
+  login: 1600073419888
+  logout: 1600032632646
+  lastteleport: 1600032035687
+  jail: 0
+  mute: 0
+ipAddress: 86.115.183.84
+lastlocation:
+  world: world
+  x: -404.04485817949603
+  y: 60.0
+  z: 294.5304599327076
+  yaw: -328.94144
+  pitch: 30.59914
+logoutlocation:
+  world: world
+  x: -312.315536039899
+  y: 72.41999998688698
+  z: 552.3000000119209
+  yaw: 156.60114
+  pitch: 58.650894
+afk: false
+jailed: false
+money: '10116756.0'
+muted: false

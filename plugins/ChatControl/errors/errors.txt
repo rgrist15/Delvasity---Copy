@@ -1,0 +1,3 @@
+[11.09.2020 21:48:40] Regex check timed out (bad regex?) (plugin ver. 5.8.9)!
+[11.09.2020 21:48:40] String checked: harry tp
+[11.09.2020 21:48:40] Regex: \b(r+(\W|\d|_)*e+(\W|\d|_)*t+(\W|\d|_)*a+(\W|\d|_)*r+(\W|\d|_)*d+(\W|\d|_)*)

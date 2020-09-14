@@ -1,0 +1,24 @@
+lastAccountName: Delvasity
+timestamps:
+  login: 1600033392762
+  logout: 1600034722554
+  lastheal: 1599685175840
+  lastteleport: 1600029115795
+  jail: 0
+ipAddress: 46.64.221.61
+logoutlocation:
+  world: world
+  x: -511.14048139807585
+  y: 97.0
+  z: 320.0297326607167
+  yaw: 294.23676
+  pitch: 10.296242
+afk: false
+lastlocation:
+  world: Riley
+  x: -556.7133587657373
+  y: 63.0
+  z: 349.6186657563476
+  yaw: -247.3048
+  pitch: 10.411584
+jailed: false

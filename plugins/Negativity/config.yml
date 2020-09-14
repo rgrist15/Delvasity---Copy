@@ -1,0 +1,689 @@
+###################################################################
+#                                                                 #
+#                            Negativity                           #
+#                      AntiCheat by Elikill58                     #
+#                                                                 #
+#              If you have a problem or a suggestion,             #
+#                    You can contact me on:                       #
+#                  - Discord: @Elikill58#0743                     #
+#       - my Discord server: https://discord.gg/KHRVTX2           #
+#               - Mail: arpetzouille@gmail.com                    #
+#                   - SpigotMC: Elikill58                         #
+#                  - Minecraft.fr: Elikill                        #
+#                                                                 #
+###################################################################
+
+log_alerts: true
+log_alerts_in_console: true
+tps_alert_stop: 19 # if you get less TPS then this value, all alert will be disabled
+
+commands:
+  # Options to enable or disable commands
+  # Manage /nreport (Alias: /report)
+  report: true
+  # Manage Mod command :
+  # Manage /nban (Alias: /ban)
+  ban: true
+  # Manage /nunban (Alias: /unban)
+  unban: true
+  # Manage /nkick (Alias: /kick)
+  kick: true
+  # Manage /nmod (Alias: /mod)
+  mod: true
+  # Manage /nlang (Alias: /lang)
+  lang: true
+
+# The time between 2 /report
+# in milliseconds
+# -1 to disable
+time_between_report: 1000
+
+# The time between 2 alerts
+# in milliseconds
+# -1 to disable
+time_between_alert: 1000
+
+Database:
+  isActive: false
+  # To get the information. We use the player uuid to get the information.
+  # We get only what you write. We never add or remove something.
+  # We don't save your private information about your database
+  url: "127.0.0.1/myDb"
+  user: root
+  password: "myPassword"
+
+inventory:
+  alerts:
+    no_started_verif_cheat: false # Don't see if the player isn't analyse for this cheat
+    only_cheat_active: true # The cheat with an active detection
+  inv_freeze_active: true
+
+# Bypass when you add effects
+#
+items:
+  #ITEM_NAME:
+  # when: WHEN_DISABLE_DETECTION
+  # cheats: CHEATS_DETECTION_DISABLED (it's the ID of the cheats like fly, speed)
+  #
+  # when available:
+  # always : disable when the player get it in their hand
+  # right_click : disable when the player right click
+  # left_click : disable when the player left click
+  # looking : disable when the player is looking a specific type
+  # below : disable according to the block below the player
+  #
+  COMPASS:
+    when: always
+    cheats: speed,fly
+
+# Configuration of the permissions subsystem. For more information
+# see https://github.com/Elikill58/Negativity/wiki/Permissions
+Permissions:
+  # The checker indicates if a player has a specific permission.
+  # By default only 'platform' is available
+  checker: platform
+  check:
+    default: "negativity.check"
+  showAlert:
+    default: "negativity.alert"
+  showReport:
+    default: "negativity.seereport"
+  verif:
+    default: "negativity.verif"
+  manageCheat:
+    default: "negativity.managecheat"
+  reload:
+    default: "negativity.reload"
+  report_wait:
+    default: "negativity.reportwait"
+  report:
+    default: "negativity.report"
+  ban:
+    default: "negativity.ban"
+  unban:
+    default: "negativity.unban"
+  mod:
+    default: "negativity.mod"
+  lang:
+    default: "negativity.lang"
+  bypass:
+    active: false
+    all:
+      default: "negativity.bypass.all"
+    forcefield:
+      default: "negativity.bypass.forcefield"
+    fastplace:
+      default: "negativity.bypass.fastplace"
+    speed:
+      default: "negativity.bypass.speed"
+    autoclick:
+      default: "negativity.bypass.autoclick"
+    fly:
+      default: "negativity.bypass.fly"
+    antipotion:
+      default: "negativity.bypass.antipotion"
+    fasteat:
+      default: "negativity.bypass.fasteat"
+    regen:
+      default: "negativity.bypass.regen"
+    antiknockback:
+      default: "negativity.bypass.antiknockback"
+    jesus:
+      default: "negativity.bypass.jesus"
+    nofall:
+      default: "negativity.bypass.nofall"
+    blink:
+      default: "negativity.bypass.blink"
+    spider:
+      default: "negativity.bypass.spider"
+    fastbow:
+      default: "negativity.bypass.fastbow"
+    scaffold:
+      default: "negativity.bypass.scaffold"
+    step:
+      default: "negativity.bypass.step"
+    noslowdown:
+      default: "negativity.bypass.noslowdown"
+    fastladder:
+      default: "negativity.bypass.fastladder"
+    phase:
+      default: "negativity.bypass.phase"
+    autosteal:
+      default: "negativity.bypass.autosteal"
+    nuker:
+      default: "negativity.bypass.nuker"
+    airjump:
+      default: "negativity.bypass.airjump"
+    chat:
+      default: "negativity.bypass.chat"
+    noweb:
+      default: "negativity.bypass.noweb"
+    critical:
+      default: "negativity.bypass.critical"
+    inventorymove:
+      default: "negativity.bypass.inventorymove"
+    faststairs:
+      default: "negativity.bypass.faststairs"
+    nopitchlimit:
+      default: "negativity.bypass.nopitchlimit"
+    timer:
+      default: "negativity.bypass.timer"
+
+Translation:
+  active: false # enable or disable the translation
+  lang_available:
+  - cs_CZ
+  - de_DE
+  - en_US
+  - es_ES
+  - fr_FR
+  - it_IT
+  - nl_NL
+  - no_NO
+  - pl_PL
+  - pt_BR
+  - ru_RU
+  - sq_SQ
+  - sv_SV
+  - vi_VN
+  - zh_CN
+  default: en_US
+  # The provider used to get translated messages, useful if you want to customize the way Negativity gets its messages.
+  # The only one available out-of-the-box is "platform".
+  provider: platform
+
+alert:
+  # To run command when someone get alert
+  command:
+    active: false
+    # Reliability need to run command
+    reliability_need: 80
+    # Available arguments:
+    # %name% : Name of player who cheat
+    # %uuid% : UUID of player who cheat
+    # %report_type% : Type of detected cheat (Know if Negativity consider it as Warning or Violation)
+    # %cheat_key% : Cheat key (like "nofall") : You cannot edit it
+    # %cheat_name% : Cheat name (like "NoFall") : You can edit it just below
+    # %reliability% : Reliability of the alert
+    run:
+    - "mycommand %name% %cheat_key% %reliability%"
+
+# Configuration of the bans subsystem. For more information
+# see https://github.com/Elikill58/Negativity/wiki/Bans
+ban:
+  active: false
+  # Processors manage bans. Only one processor can be used at the time.
+  # Available processors :
+  # - file : Saves bans under the ban/ directory of the configuration directory
+  # - database : Saves bans in a database. Needs a configured database (see the Database category)
+  # - command : Runs commands to ban or unban
+  # - bukkit : Uses Bukkit's ban system
+  # - proxy : Forwards ban execution and revocations to the proxy companion plugin.
+  #   You must enable bans on the proxy plugin's configuration for it to work
+  # The following plugins are also supported :
+  # - maxbans
+  # - advancedban
+  # - litebans
+  # Defaults to "file"
+  processor: "file"
+  # Commands to execute when using the "command" processor
+  # You can execute as many commands as you want. Order is respected.
+  #
+  # Available placeholders:
+  # %uuid% : uuid of banned player
+  # %name% : name of banned player
+  # %ip% : ip of the banned player
+  # %reason% : detected cheat
+  # %alert% : number of alerts for the detected cheat that triggered the ban
+  # %all_alert% : all alerts for the detected cheat since you added Negativity on your server
+  command:
+    ban:
+    - "ban %uuid% %reason%"
+    unban:
+    - "unban %uuid% %reason%"
+  # Need to be banned
+  reliability_need: 95
+  alert_need: 10
+  # How to calculate the time during the player will be banned
+  # IN MILLISECONDES
+  time:
+    # %reliability% : reliability of last alert
+    # %alert% : number of alert sent
+    calculator: "360000000 + (%reliability% * 20 * %alert%)"
+  def:
+    # Number that you need to be ban definitly
+    ban_time: 2
+  file:
+    # Log expired or revoked bans when using the "file" processor
+    log_bans: true
+  database:
+    # Log expired or revoked bans when using the "database" processor
+    log_bans: true
+
+# Accounts hold player-specific data of the plugin, like their language and alerts count.
+accounts:
+  storage:
+    # The ID of the storage to use.
+    #
+    # The following are available out-of-the-box:
+    # - file : stored in files under ./plugins/Negativity/user/
+    # - database : uses a database
+    # Defaults to "file"
+    id: "file"
+
+# A verification is used to monitor a player's activity.
+verif:
+  # The default duration of a verification, in ticks (20 ticks = 1 second)
+  time: 200
+  # If true, mutes alerts a player generates when it is being verified
+  # Alerts for a specific cheat can be forcibly muted by setting cheats.<cheat>.check_in_verif to false
+  disable_alert_on_verif: false
+
+  storage:
+    # The ID of the storage to use.
+    #
+    # The following are available out-of-the-box:
+    # - file : stored in files under ./plugins/Negativity/verif/
+    # - database : uses a database
+    # Defaults to "file"
+    id: "file"
+
+region-bypass:
+  enabled: false
+  1:
+    # You need WorldGuard for the region
+    regions:
+    - "spawn"
+    # Default worlds names (or Multiverse names)
+    worlds:
+    - "world_the_end"
+    # the cheats keys
+    cheats:
+    - "fly"
+
+# Per-cheat configuration. For more information about specific cheats
+# and their detections see https://github.com/Elikill58/Negativity/wiki/Cheat
+cheats:
+  #
+  # WARNING: An auto verification of all cheat can be create some lag on your server.
+  #
+
+  # Forcefield is to hit more entity than real people in the same time and further
+  forcefield:
+    reach: 3.9 # In blocks !
+    # Disabled by default because they can be viewable for someone
+    ghost_disabled: true
+    ping: 150
+    exact_name: "ForceField"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Jesus is to walk on the water
+  jesus:
+    ping: 150
+    exact_name: "Jesus"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # AntiPotion remove bad potion effect
+  antipotion:
+    ping: 150
+    exact_name: "AntiPotion"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # NoFall remove fall damage
+  nofall:
+    kill: false
+    kill-reliability: 90 # reliability to authorize to kill player
+    ping: 150
+    exact_name: "NoFall"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # FastEat is to eat something instantly
+  fasteat:
+    ping: 150
+    exact_name: "FastEat"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # FastPlace place a lot of block for you
+  fastplace:
+    ping: 150
+    exact_name: "FastPlace"
+    isActive: true
+    # Max time between 2 blocks placed
+    # In milliseconds
+    time_2_place: 50
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Speed makes you run faster
+  speed:
+    ping: 150
+    exact_name: "Speed"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # AutoClick is to get more click than real people
+  autoclick:
+    click_alert: 20
+    ping: 150
+    exact_name: "AutoClick"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Fly enable you to fly
+  fly:
+    ping: 150
+    exact_name: "Fly"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Regen help you to get your health
+  regen:
+    ping: 150
+    exact_name: "Regen"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # AntiKnockback remove knockback effect
+  antiknockback:
+    ping: 150
+    exact_name: "AntiKnockback"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Blink enable you to teleport by simulating lag
+  blink:
+    ping: 150
+    exact_name: "Blink"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # FastBow shoot bow quicker
+  fastbow:
+    ping: 150
+    exact_name: "FastBow"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Spider make you walk on the wall
+  spider:
+    ping: 150
+    exact_name: "Spider"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Sneak make you sneaking but with basic speed
+  sneak:
+    ping: 150
+    exact_name: "Sneak"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Scaffold place block under you
+  scaffold:
+    ping: 150
+    exact_name: "Scaffold"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Step make you jump 2 blocks
+  step:
+    ping: 150
+    exact_name: "Step"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # NoSlowDown remove slow down effects (like with soul sand)
+  noslowdown:
+    ping: 150
+    exact_name: "NoSlowDown"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # FastLadders is to climb ladders quickler
+  fastladder:
+    ping: 150
+    exact_name: "FastLadder"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Phase is to glitch on block
+  phase:
+    ping: 150
+    exact_name: "Phase"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # AutoSteal help with inventory (Take verything ...)
+  autosteal:
+    ping: 150
+    exact_name: "AutoSteal"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # XRay cannot be detected directly, it's about Minerate
+  xray:
+    ping: 300
+    exact_name: "XRay"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Nuker/BedBreaker automatically break block without looking her
+  nuker:
+    ping: 150
+    exact_name: "Nuker"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # AirJump make you jump on air
+  airjump:
+    ping: 150
+    exact_name: "AirJump"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Chat represent all chat hack (spam/insult)
+  chat:
+    ping: 300
+    exact_name: "Chat"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+    insults:
+    - "bitch"
+    - "asshole"
+    - "dickhead"
+
+  # NoWeb make you walking on web like if you walk on ground
+  noweb:
+    ping: 150
+    exact_name: "NoWeb"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Critical set all of your attack as critical attack (even while sneaking)
+  critical:
+    ping: 150
+    exact_name: "Critical"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # InventoryMove make you walking while editing your inventory
+  inventorymove:
+    ping: 150
+    exact_name: "InventoryMove"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # FastStairs make you walking faster on Stairs
+  faststairs:
+    ping: 150
+    exact_name: "FastStairs"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # NoPitchLimit enable player to see behind
+  nopitchlimit:
+    ping: 150
+    exact_name: "NoPitchLimit"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+
+  # Timer make the player game going faster
+  timer:
+    ping: 150
+    exact_name: "Timer"
+    isActive: true
+    reliability_alert: 60
+    setBack: false
+    kick: false
+    alert_to_kick: 5
+    check_in_verif: true
+    max_variation: 7
+
+  # There is some special features
+  special:
+    mcleaks:
+      kick: true
+    server_crash:
+      name: "Server Crasher"
+      kick: true
+      ban: false
+      # The time of the ban, in milliseconds.
+      # Default: 2629800000 (1 month)
+      ban_time: 2629800000
+    invalid_name:
+      name: "Invalid Name"
+      kick: true
+      ban: false
+      # The time of the ban, in milliseconds.
+      # Default: -1 (definitive)
+      ban_time: -1
+    max-player-by-ip:
+      name: "Max Player/IP"
+      # number of maximum allowed player on the same IP
+      # default: 4. It means that the third people will be kicked.
+      number: 4
+stats: true

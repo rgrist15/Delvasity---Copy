@@ -1,0 +1,198 @@
+Kits:
+  starter:
+    Items:
+      '1':
+        id: STONE_SWORD
+        amount: '1'
+        durability: '0'
+      '2':
+        id: STONE_AXE
+        amount: '1'
+        durability: '0'
+      '3':
+        id: STONE_SHOVEL
+        amount: '1'
+        durability: '0'
+      '4':
+        id: STONE_PICKAXE
+        amount: '1'
+        durability: '0'
+      '5':
+        id: BREAD
+        amount: '10'
+        durability: '0'
+      '6':
+        id: OAK_LOG
+        amount: '4'
+        durability: '0'
+      '7':
+        id: GOLDEN_SHOVEL
+        amount: '1'
+        durability: '0'
+        name: Claim
+        unbreakable: 'false'
+    slot: 1
+    display_item: IRON_SWORD
+    display_name: '&6&lstarter &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 86400
+    first_join: true
+    one_time: false
+    auto_armor: false
+  pvp:
+    Items:
+      '1':
+        id: IRON_HELMET
+        amount: '1'
+        durability: '0'
+      '2':
+        id: IRON_CHESTPLATE
+        amount: '1'
+        durability: '0'
+      '3':
+        id: IRON_LEGGINGS
+        amount: '1'
+        durability: '0'
+      '4':
+        id: IRON_BOOTS
+        amount: '1'
+        durability: '0'
+      '5':
+        id: IRON_SWORD
+        amount: '1'
+        durability: '0'
+      '6':
+        id: BOW
+        amount: '1'
+        durability: '0'
+      '7':
+        id: ARROW
+        amount: '16'
+        durability: '0'
+      '8':
+        id: COOKED_PORKCHOP
+        amount: '8'
+        durability: '0'
+    slot: 2
+    display_item: IRON_SWORD
+    display_name: '&6&lpvp &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 600
+    auto_armor: true
+  test:
+    Items:
+      '1':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+    slot: 3
+    display_item: IRON_SWORD
+    display_name: '&6&ltest &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: op
+    auto_armor: true
+    one_time: false
+  admin:
+    slot: 44
+    display_item: IRON_SWORD
+    display_name: '&6&ladmin &aKit'
+    display_lore:
+    - '&7This is a description of the kit.'
+    - '&7You can add multiples &alines&7.'
+    cooldown: 3600
+    permission: op
+    auto_armor: true
+    Items:
+      '1':
+        id: DIAMOND_SWORD
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - DAMAGE_ALL;5
+        - KNOCKBACK;2
+        - FIRE_ASPECT;2
+        - LOOT_BONUS_MOBS;3
+        - SWEEPING_EDGE;3
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '2':
+        id: BOW
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - DURABILITY;3
+        - ARROW_DAMAGE;4
+        - ARROW_KNOCKBACK;2
+        - ARROW_FIRE;1
+        - MENDING;1
+        unbreakable: 'false'
+      '3':
+        id: DIAMOND_HELMET
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - OXYGEN;3
+        - WATER_WORKER;1
+        - THORNS;3
+        - BINDING_CURSE;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '4':
+        id: DIAMOND_CHESTPLATE
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;3
+        - BINDING_CURSE;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '5':
+        id: DIAMOND_LEGGINGS
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - THORNS;3
+        - BINDING_CURSE;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '6':
+        id: DIAMOND_BOOTS
+        amount: '1'
+        durability: '0'
+        name: The Protector
+        enchants:
+        - PROTECTION_ENVIRONMENTAL;4
+        - PROTECTION_FALL;4
+        - THORNS;3
+        - FROST_WALKER;2
+        - BINDING_CURSE;1
+        - DURABILITY;3
+        - MENDING;1
+        unbreakable: 'false'
+      '7':
+        id: ARROW
+        amount: '64'
+        durability: '0'
+      '8':
+        id: ENCHANTED_GOLDEN_APPLE
+        amount: '64'
+        durability: '0'

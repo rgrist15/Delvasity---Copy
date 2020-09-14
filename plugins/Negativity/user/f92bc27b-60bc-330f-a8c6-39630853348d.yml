@@ -1,0 +1,20 @@
+playername: JETB
+lang: en_US
+minerate-full-mined: 43
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 102
+cheats:
+  timer: 5
+  antiknockback: 2
+  fly: 34
+  autoclick: 193
+  airjump: 14
+  step: 3
+  nofall: 52
+  speed: 5
+creation-time: 1599914862426

@@ -1,0 +1,39 @@
+columns:
+   - items:
+     - text: "&e&lSERVER INFO"
+       ping: 0
+     - ""
+     - text: "{information}"
+       amount: -1 # until the end of the column, if amount > 0, it will repeat the text for specific amount
+     # hideEmpty - hide the column when its empty?
+   - hideEmpty: true
+     items:
+     - text: "{dynamicSlots}"
+       amount: -1
+   - items:
+     - "&e&lWORLD PLAYERS"
+     - text: "{worldPlayers}"
+       amount: -1
+size: 60
+defaultSkin: "krep"
+defaultPing: 1000
+defaultDisplay:
+header:
+   refreshTicks: 10
+   text:
+   - "&aWelcome to my awesome server!"
+   - "&eWelcome to my awesome server!"
+   - "&cWelcome to my awesome server!"
+   - text: "&6You are an OPERATOR in this server"
+     delay: 60
+     condition: "{player_is_op}"
+   - text: "&dYou are a VIP in this server!"
+     condition: "{player_has_permission_server.vip} && !{player_is_op}"
+   - text: "&fYou are a VIP in this server!"
+     condition: "{player_has_permission_server.vip} && !{player_is_op}"
+   - text: "&dYou are a VIP in this server!"
+     condition: "{player_has_permission_server.vip} && !{player_is_op}"
+   - text: "&fYou are a VIP in this server!"
+     condition: "{player_has_permission_server.vip} && !{player_is_op}"
+footer:
+   text: "&dPlease donate to my server <3"

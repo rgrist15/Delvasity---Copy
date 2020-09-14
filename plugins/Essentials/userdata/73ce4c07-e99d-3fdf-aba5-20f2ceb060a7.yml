@@ -1,0 +1,23 @@
+lastAccountName: R3D_Jive
+timestamps:
+  login: 1600015480324
+  logout: 1600015957585
+  lastteleport: 1600015716196
+  jail: 0
+ipAddress: 94.193.104.92
+lastlocation:
+  world: world
+  x: -511.65217652854085
+  y: 57.5
+  z: 565.0935136642189
+  yaw: -0.34326172
+  pitch: -15.450283
+logoutlocation:
+  world: world
+  x: -413.02447327199553
+  y: 77.61638252848152
+  z: 450.04793878206306
+  yaw: -221.18481
+  pitch: 7.1742735
+afk: false
+jailed: false

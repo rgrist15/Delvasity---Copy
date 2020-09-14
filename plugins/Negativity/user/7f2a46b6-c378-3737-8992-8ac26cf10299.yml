@@ -1,0 +1,17 @@
+playername: Delvasity
+lang: en_US
+minerate-full-mined: 1904
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 3
+  coal: 4
+  ancient debris: 0
+better-click: 54
+cheats:
+  timer: 62
+  antiknockback: 1
+  chat: 1
+  airjump: 2
+  forcefield: 5
+creation-time: 1599674149020

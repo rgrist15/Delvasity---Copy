@@ -1,0 +1,711 @@
+[21:55:29] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[21:55:31] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[21:55:33] [Worker-Main-6/INFO]: Loaded 7 recipes
+[21:55:38] [Server thread/INFO]: Starting minecraft server version 1.16.2
+[21:55:38] [Server thread/INFO]: Loading properties
+[21:55:40] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-379750e-43c7ff9 (MC: 1.16.2) (Implementing API version 1.16.2-R0.1-SNAPSHOT)
+[21:55:41] [Server thread/INFO]: Debug logging is disabled
+[21:55:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:55:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:55:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:55:41] [Server thread/INFO]: Generating keypair
+[21:55:42] [Server thread/INFO]: Starting Minecraft server on 192.168.1.152:25565
+[21:55:42] [Server thread/INFO]: Using default channel type
+[21:55:55] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:56:07] [Server thread/WARN]: Legacy plugin TPA v1.0 does not specify an api-version.
+[21:56:09] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.106
+[21:56:12] [Server thread/INFO]: [TPA] Loading TPA v1.0
+[21:56:12] [Server thread/INFO]: [ClearLag] Loading ClearLag v3.1.6
+[21:56:12] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.1.0
+[21:56:12] [Server thread/INFO]: [ViaVersion] ViaVersion 3.1.0 is now loaded, injecting!
+[21:56:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12.2 -> 1.13 mappings...
+[21:56:14] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[21:56:14] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.14.4 -> 1.15 mappings...
+[21:56:15] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[21:56:15] [Server thread/INFO]: [TreeFeller] Loading TreeFeller v1.13.5
+[21:56:15] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:56:15] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.1.0
+[21:56:15] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.1
+[21:56:15] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-04+98f71a3
+[21:56:15] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.1 -> 1.16.2 mappings...
+[21:56:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[21:56:20] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@382dd5dd]
+[21:56:20] [Server thread/INFO]: [PlayerKits] Loading PlayerKits v2.9.3
+[21:56:20] [Server thread/INFO]: [Essentials] Loading Essentials v2.18.1.0
+[21:56:20] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.18.1.0
+[21:56:20] [Server thread/INFO]: [Negativity] Loading Negativity v1.9.4
+[21:56:20] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.18.1.0
+[21:56:20] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.14.0
+[21:56:20] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.106
+[21:56:20] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+[21:56:20] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms [0;36;1mv5.1.106[m
+[21:56:20] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+[21:56:20] [Server thread/INFO]: [m
+[21:56:21] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:56:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:56:28] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:56:29] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:56:30] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 9669ms)
+[21:56:30] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:56:30] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.18.1.0 which is not a depend, softdepend or loadbefore of this plugin.
+[21:56:30] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:56:30] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:56:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:56:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:56:31] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.1.0
+[21:56:31] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[21:56:31] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[21:56:32] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.13 -> 1.12.2 mappings...
+[21:56:32] [Via-Mappingloader-2/INFO]: [ViaBackwards] Loading 1.14 -> 1.13.2 mappings...
+[21:56:32] [Via-Mappingloader-1/INFO]: [ViaBackwards] Loading 1.15 -> 1.14.4 mappings...
+[21:56:32] [Via-Mappingloader-0/INFO]: [ViaBackwards] Loading 1.16 -> 1.15.2 mappings...
+[21:56:33] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.1
+[21:56:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-04+98f71a3
+[21:56:36] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:56:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R2 as the Bukkit adapter
+[21:56:42] [Server thread/WARN]: [WorldEdit] ====================================================
+[21:56:42] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:56:42] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[21:56:42] [Server thread/WARN]: [WorldEdit]   
+[21:56:42] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[21:56:42] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:56:42] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[21:56:42] [Server thread/WARN]: [WorldEdit]   
+[21:56:42] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:56:42] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:56:42] [Server thread/WARN]: [WorldEdit]   
+[21:56:42] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[21:56:42] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:56:42] [Server thread/WARN]: [WorldEdit]   
+[21:56:42] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:56:42] [Server thread/WARN]: [WorldEdit] ====================================================
+[21:56:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:56:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:56:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:56:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:56:42] [Server thread/INFO]: Preparing level "world"
+[21:56:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:56:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:56:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:56:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:56:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:56:42] [Server thread/INFO]: View Distance: 10
+[21:56:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:56:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:56:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:56:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:56:42] [Server thread/INFO]: Max TNT Explosions: 100
+[21:56:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:56:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:56:42] [Server thread/INFO]: Mob Spawn Range: 6
+[21:56:42] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:56:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:56:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:56:43] [Via-Mappingloader-3/INFO]: [ViaBackwards] Loading 1.16.2 -> 1.16.1 mappings...
+[21:56:43] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:56:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:56:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:56:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:56:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:56:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:56:45] [Server thread/INFO]: View Distance: 10
+[21:56:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:56:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:56:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:56:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:56:45] [Server thread/INFO]: Max TNT Explosions: 100
+[21:56:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:56:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:56:45] [Server thread/INFO]: Mob Spawn Range: 6
+[21:56:45] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:56:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:56:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:56:46] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:56:46] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:56:46] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:56:46] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:56:46] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:56:46] [Server thread/INFO]: View Distance: 10
+[21:56:46] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:56:46] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:56:46] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:56:46] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:56:46] [Server thread/INFO]: Max TNT Explosions: 100
+[21:56:46] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:56:46] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:56:46] [Server thread/INFO]: Mob Spawn Range: 6
+[21:56:46] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:56:46] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:56:46] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:56:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:50] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:56:51] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:52] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:52] [Server thread/INFO]: Preparing spawn area: 5%
+[21:56:53] [Server thread/INFO]: Preparing spawn area: 47%
+[21:56:53] [Server thread/INFO]: Preparing spawn area: 47%
+[21:56:54] [Server thread/INFO]: Time elapsed: 8485 ms
+[21:56:54] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Server thread/INFO]: Preparing spawn area: 0%
+[21:56:59] [Worker-Main-9/INFO]: Preparing spawn area: 55%
+[21:56:59] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:00] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:00] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:01] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:57:01] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:02] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:02] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:03] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:03] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:04] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:04] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:05] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:05] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:06] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:57:06] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:07] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:07] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:57:08] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[21:57:09] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:09] [Worker-Main-7/INFO]: Preparing spawn area: 84%
+[21:57:09] [Server thread/INFO]: Preparing spawn area: 86%
+[21:57:10] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[21:57:10] [Worker-Main-9/INFO]: Preparing spawn area: 89%
+[21:57:11] [Worker-Main-8/INFO]: Preparing spawn area: 90%
+[21:57:11] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[21:57:12] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[21:57:12] [Worker-Main-7/INFO]: Preparing spawn area: 93%
+[21:57:14] [Worker-Main-7/INFO]: Preparing spawn area: 94%
+[21:57:14] [Worker-Main-9/INFO]: Preparing spawn area: 94%
+[21:57:14] [Worker-Main-7/INFO]: Preparing spawn area: 94%
+[21:57:14] [Worker-Main-9/INFO]: Preparing spawn area: 96%
+[21:57:15] [Worker-Main-8/INFO]: Preparing spawn area: 98%
+[21:57:15] [Server thread/INFO]: Time elapsed: 20773 ms
+[21:57:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:57:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:16] [Server thread/INFO]: Preparing spawn area: 0%
+[21:57:17] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:17] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:57:18] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[21:57:18] [Worker-Main-9/INFO]: Preparing spawn area: 83%
+[21:57:19] [Worker-Main-8/INFO]: Preparing spawn area: 85%
+[21:57:19] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[21:57:19] [Server thread/INFO]: Time elapsed: 4120 ms
+[21:57:19] [Server thread/INFO]: [TPA] Enabling TPA v1.0
+[21:57:19] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.1.6
+[21:57:20] [Server thread/INFO]: [ClearLag] Loading modules...
+[21:57:20] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[21:57:20] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[21:57:20] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[21:57:20] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.1.0
+[21:57:20] [Server thread/INFO]: [TreeFeller] Enabling TreeFeller v1.13.5
+[21:57:20] [Thread-14/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[21:57:20] [Server thread/INFO]: [TreeFeller] TreeFeller has been enabled! (Version 1.13.5) by ThizThizzyDizzy
+[21:57:20] [Server thread/INFO]: [TreeFeller] Server version: 1_16_R2
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded global values:
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Startup Logs: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Scan Distance: 256
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Range: 6
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Required Logs: 4
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Required Leaves: 10
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Logs: 250
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Height: 5
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Allow Partial: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Player Leaves: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Ignore Leaf Data: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Require Cross Section: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Force Distance Check: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Cutting Animation: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Anim Delay: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Replant Saplings: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Spawn Saplings: 0
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Grass: [PODZOL, DIRT, GRASS_BLOCK]
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Log Behavior: BREAK
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Behavior: BREAK
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Directional Fall Behavior: RANDOM
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Overridables: [WATER, LARGE_FERN, GRASS, FERN, CAVE_AIR, AIR, TALL_SEAGRASS, SEAGRASS, TALL_GRASS]
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Lock Fall Cardinal: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Directional Fall Velocity: 0.35
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Vertical Fall Velocity: 0.05
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Random Fall Velocity: 0.0
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Respect Unbreaking: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Damage Mult: 1.0
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Fortune: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Silk Touch: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Log Fortune: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Log Silk Touch: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leave Stump: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Rotate Logs: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Convert Wood To Log: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Drop Chance: 1.0
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Log Drop Chance: 1.0
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Effects: []
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Prevent Breakage: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Enable Adventure: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Enable Survival: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Enable Creative: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - With Sneak: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Without Sneak: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - World Blacklist: false
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility MMOCore: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility Jobs: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - MCMMO Double Drops: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility mcMMO: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility CoreProtect: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility WorldGuard: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Compatibility GriefPrevention: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: OAK_LOG, OAK_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: OAK_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: OAK_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: BIRCH_LOG, BIRCH_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: BIRCH_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: BIRCH_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: SPRUCE_LOG, SPRUCE_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: SPRUCE_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: SPRUCE_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: JUNGLE_LOG, JUNGLE_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: JUNGLE_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: JUNGLE_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: DARK_OAK_LOG, DARK_OAK_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: DARK_OAK_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: DARK_OAK_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 4
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: ACACIA_LOG, ACACIA_WOOD
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: ACACIA_LEAVES
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: ACACIA_SAPLING
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: CRIMSON_STEM, CRIMSON_HYPHAE
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: NETHER_WART_BLOCK, SHROOMLIGHT
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Range: 8
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: CRIMSON_FUNGUS
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Grass: [CRIMSON_NYLIUM]
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded Tree!
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Trunk: WARPED_STEM, WARPED_HYPHAE
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaves: WARPED_WART_BLOCK, SHROOMLIGHT
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Leaf Range: 8
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Diagonal Leaves: true
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Sapling: WARPED_FUNGUS
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Max Saplings: 1
+[21:57:20] [Server thread/INFO]: [TreeFeller] - Grass: [WARPED_NYLIUM]
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: WOODEN_AXE
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: STONE_AXE
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: IRON_AXE
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: GOLDEN_AXE
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: DIAMOND_AXE
+[21:57:20] [Server thread/INFO]: [TreeFeller] Loaded tool: NETHERITE_AXE
+[21:57:20] [Server thread/INFO]: [PlayerKits] Enabling PlayerKits v2.9.3
+[21:57:21] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mHas been enabled! [0;37;1mVersion: 2.9.3[m
+[21:57:21] [Server thread/INFO]: [0;30;1m[[0;31;22mPlayerKits[0;30;1m] [0;33;1mThanks for using my plugin!  [0;37;1m~Ajneb97[m
+[21:57:22] [Server thread/INFO]: [Essentials] Enabling Essentials v2.18.1.0
+[21:57:22] [Thread-14/INFO]: [ClearLag] No updates found!
+[21:57:22] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:57:22] [Server thread/INFO]: No kits found to migrate.
+[21:57:22] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[21:57:22] [Server thread/INFO]: [Essentials] Found 1 files to convert...
+[21:57:22] [Server thread/INFO]: [Essentials] Converted 0/1
+[21:57:22] [Server thread/INFO]: [Essentials] Ban format update complete.
+[21:57:22] [Server thread/INFO]: [Essentials] Starting usermap repair
+[21:57:22] [Server thread/INFO]: [Essentials] Reading: 0.00%
+[21:57:22] [Server thread/INFO]: [Essentials] Completed usermap repair.
+[21:57:22] [Server thread/INFO]: Attempting to migrate ignore list to UUIDs
+[21:57:22] [Server thread/INFO]: Done converting ignore list.
+[21:57:24] [Server thread/INFO]: Loaded 25599 items from items.json.
+[21:57:24] [Server thread/INFO]: Using locale en_GB
+[21:57:24] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:57:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:57:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:57:24] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:57:24] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.18.1.0
+[21:57:24] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[21:57:24] [Server thread/INFO]: [Negativity] Enabling Negativity v1.9.4
+[21:57:24] [Server thread/INFO]: [Negativity] Detected server version: v1_16 (v1_16_R2)
+[21:57:25] [Server thread/INFO]: [Negativity] This plugin is free, but you can support me : https://www.patreon.com/elikill58 <3
+[21:57:27] [Server thread/INFO]: [Negativity] Loaded support for Essentials, ViaVersion.
+[21:57:27] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.18.1.0
+[21:57:27] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[21:57:27] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.14.0
+[21:57:27] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[21:57:27] [Server thread/INFO]: [GriefPrevention] 1 total claims loaded.
+[21:57:32] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[21:57:32] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[21:57:32] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[21:57:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:57:35] [Server thread/INFO]: Done (53.156s)! For help, type "help"
+[21:57:35] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.2(751)
+[21:57:36] [Craft Scheduler Thread - 1/INFO]: [Vault] Checking for Updates ... 
+[21:57:37] [Craft Scheduler Thread - 1/INFO]: [Vault] No new version available
+[21:57:38] [Server thread/INFO]: Made Delvasity a server operator
+[21:58:15] [User Authenticator #1/INFO]: UUID of player Delvasity is 7f2a46b6-c378-3737-8992-8ac26cf10299
+[21:58:23] [Server thread/INFO]: Delvasity[/192.168.1.210:50475] logged in with entity id 272 at ([world]-495.1381125524918, 140.54433430286252, 330.1800836345897)
+[21:58:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10361ms or 207 ticks behind
+[21:58:29] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 63.647300ms. Summary: Getting prefix for Delvasity
+[21:59:08] [Server thread/INFO]: Delvasity issued server command: /lp applyedits oOukjW9v7C
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.disposal true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.r true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.afk true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ban.exempt true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.msgtoggle true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.rules true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.into true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.kittycannon true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.gamemode true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.chat true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.payconfirmtoggle true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpa true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.lightning true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add bukkit.broadcast.admin true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.book true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.repair true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tp true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.jails true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpall true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.time true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.eco true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.setjail true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.motd true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpaall true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tphere true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.banip true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.feed true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.break true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tptoggle true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.spawnmob true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpauto true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.jump true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.warp true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.remove true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.into.world true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.delhome true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tempbanip true[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:08] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.ondeath true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.into.world_nether true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.condense true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.balancetop true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ban true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.rest true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.firework true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.worth true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ping true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.paytoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.potion true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.whois true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpdeny true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.powertooltoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.clearinventoryconfirmtoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.fireball true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.itemlore true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.sell true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.enchant true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.broadcastworld true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.setworth true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.world true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.pay true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.togglejail true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.enderchest true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.afk.auto true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.recipe true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ext true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpacancel true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.list true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.burn true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.exp true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.mail true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.weather true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.msg true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpoffline true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.workbench true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.onteleport true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.getpos true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.fly true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.clearinventory true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.god true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.chat.ignoreexempt true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.itemname true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.unban true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.compass true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.editsign true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.speed true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tree true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ignore true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpo true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.realname true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpaccept true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.kill true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.more true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.item true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.vanish true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.depth true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.showkit true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpr true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.spawn true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpahere true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.beezooka true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.thunder true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tppos true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.unlimited true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.powertool true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.keepinv true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.spawner true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.give true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.itemdb true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.back.into.world_the_end true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.broadcast true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpohere true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.heal true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.unbanip true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.pweather true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add bukkit.command.help true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.top true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.bigtree true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.ptime true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.suicide true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.antioch true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1madmin[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor remove prefix.1.[0;31;1m[[0;37;1mAdmin[0;31;1m][m  true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tp true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.msgtoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.rules true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.paytoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpacancel true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpdeny true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.compass true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.warp true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.list true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.payconfirmtoggle true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.delhome true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpa true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpahere true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.sell true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.suicide true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.msg true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.motd true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tphere true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.setworth true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.tpaccept true[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;30;1m([0;33;1mDelvasity[0;30;1m) [[0;32;1mG[0;30;1m] ([0;36;1mdefault[0;30;1m)[m
+[21:59:09] [pool-12-thread-1/INFO]: [0;37;22m[[0;36;1m[21mL[0;36;22m[21mP[0;37;22m] [0;36;22mLOG [0;36;22m[21m> [0;37;1mwebeditor add essentials.pay true[m
+[21:59:26] [Server thread/INFO]: Delvasity issued server command: /deop delvasity
+[21:59:26] [Server thread/INFO]: [Delvasity: Made Delvasity no longer a server operator]
+[21:59:35] [Server thread/INFO]: Delvasity issued server command: /heal
+[21:59:43] [Server thread/INFO]: Delvasity issued server command: /heal noob
+[22:27:08] [Server thread/INFO]: Delvasity lost connection: Disconnected
+[22:27:09] [Server thread/INFO]: Delvasity left the game

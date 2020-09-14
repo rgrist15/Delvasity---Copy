@@ -1,0 +1,291 @@
+# These are placeholder handlers
+# also known as slot-list on PlayerListPlus
+#
+# Handler Types:
+# COMPOUND
+#    This type combines many handlers into one handler
+#    Fields:
+#       overflowFormat - text when there is not enough space left to put this placeholder (Optional)
+#       header - the header shown before the list (Optional)
+#       hideEmpty - hide the header when the content is empty? (Optional, default = true)
+#       items - a section containing handlers
+#          fixedSize - size for the handler (-1 for dynamic size)
+# TEXT
+#    This type shows text
+#    Fields:
+#       text - the text, highly configurable, see examples below
+#       skin - the skin, can be player name or player uuid, you can use placeholder in this field
+#       ping - the ping, you can use placeholder in this field
+#       refreshTicks - the refresh time (in ticks, 20 ticks = 1 second). Optional, default = 20
+# PLAYER_LIST
+#    This type shows player list, you can use player placeholder in here,
+#    for the viewer, replace "player" with "viewer", example "{player_hp}" to "{viewer_player_hp}"
+#    Fields:
+#       text
+#       skin
+#       ping
+#       refreshTicks
+#       condition - the condition script (in javascript)
+#       sort - sort by placeholders
+#       order - sort order, ASCEND or DESCEND
+#       hideEmpty
+#       header
+#       overflowFormat
+#       includeOfflinePlayers - Include offline players on the list
+#       grouping - The list group, prevents the item to be in same context
+#           groupName - the group name
+#           priority - the priority, higher means important and goes first
+# WORLD_LIST
+#    This type shows world list, you can use world placeholder in here
+#    Fields:
+#       text
+#       skin
+#       ping
+#       refreshTicks
+#       condition
+#       sort
+#       order
+#       hideEmpty
+#       header
+#       overflowFormat
+#       grouping
+#       groups - Group worlds into one named world group, see example below
+# SERVER_LIST
+#    This type shows server list (ONLY FOR BUNGEECORD)
+#    Fields:
+#       text
+#       skin
+#       ping
+#       refreshTicks
+#       condition
+#       sort
+#       order
+#       hideEmpty
+#       header
+#       overflowFormat
+#       grouping
+# BUNGEECORD_PLAYER_LIST
+#    Same as PLAYER_LIST, but this globally listing all players
+#    USE "proxiedplayer" INSTEAD OF "player" FOR PLACEHOLDERS/VARIABLES
+#    Fields:
+#       text
+#       skin
+#       ping
+#       refreshTicks
+#       condition
+#       sort
+#       order
+#       hideEmpty
+#       header
+#       overflowFormat
+#       grouping
+#
+#  YOU CAN CREATE YOUR OWN HANDLER
+information:
+   type: COMPOUND
+   overflowFormat: "... and {overflow_count} ..."
+   items:
+      serverInfo:
+         fixedSize: -1
+      playerInfo:
+         fixedSize: -1
+      worlds:
+         fixedSize: -1
+playerInfo:
+   type: TEXT
+   text:
+   - "&aLocation:"
+   - "&7{playerlocation}"
+   - "&aBiome: &7{fixEnum_{player_biome}}"
+   - "&aTime: &7{player_world_time_24}"
+   - ""
+   # can be UUID or name
+   skin: "Septogeddon"
+serverInfo:
+   type: TEXT
+   text:
+   - "&aDate: &7{server_time_dd/MM/yyyy}"
+   - "&aTPS: &7{server_tps_1}"
+   - "&aUsed Memory: &7{server_ram_used}MB/{server_ram_max}MB"
+   - "&aFree Memory: &7{server_ram_free}MB/{server_ram_max}MB"
+   - "&aOnline Players: &7{server_online}/{server_max_players}"
+   - "&aTablist Performance: &7{tablist_performanceMS}ms"
+   - "&aUnique Joins: &7{server_unique_joins}"
+   - - "&aUptime: &7{server_uptime}"
+     - "&fUptime: &7{server_uptime}"
+   - ""
+   condition: "{player_is_op}"
+   # the alternative text when the statement in the condition above is not true
+   alternateText:
+   - "&aDate: &7{server_time_dd/MM/yyyy}"
+   - "&aOnline Players: &7{server_online}/{server_max_players}"
+   - ""
+   ping: 0
+   refreshTicks: 20
+   skin: "md_5"
+vips:
+   type: PLAYER_LIST
+   text: "&d[VIP] &f{player_displayname}"
+   skin: "{player_uuid}"
+   ping: "{player_ping}"
+   hideEmpty: true
+   header: "&d&lVIPS"
+   condition: "'{vault_rank}' == 'Vip'"
+owner:
+   type: PLAYER_LIST
+   text: "&c[Owner] &f{player_displayname}"
+   skin: "{player_uuid}"
+   ping: "{player_ping}"
+   header: "&c&lOWNER"
+   condition: "'{vault_rank}' == 'Owner' && {player_is_op}"
+animatedText:
+   type: TEXT
+   text:
+   # list of list of string
+   - - "&c&lONLINE PLAYERS"
+     - "&e&lONLINE PLAYERS"
+     - "&a&lONLINE PLAYERS"
+     - "&b&lONLINE PLAYERS"
+     - "&d&lONLINE PLAYERS" 
+   ping:
+   - text: 0
+     delay: 3
+   - text: 250
+     delay: 3
+   - text: 500
+     delay: 3
+   - text: 750
+     delay: 3
+   - text: 500
+     delay: 3
+   - text: 250
+     delay: 3
+   refreshTicks: 20 # default 20
+   skin:
+   - md_5
+   - Septogeddon
+players:
+   type: PLAYER_LIST
+   sorter: "{player_displayname}"
+   skin: "{player_uuid}"
+   header: "&e&lPLAYERS"
+   # hide header if list is empty
+   hideEmpty: true
+   order: ASCEND # or DESCEND
+   text: "{player_displayname} &7{player_ping}"
+   ping: "{player_ping}"
+   overflowFormat: "... and {overflow_count} more ..."
+   grouping:
+      groupName: "GLOBAL"
+      priority: 0 # highest number goes first in the context
+worldPlayers:
+   type: PLAYER_LIST
+   sorter: "{player_displayname}"
+   skin: "{player_uuid}"
+   order: ASCEND
+   text: "{player_displayname} &7{player_ping}"
+   ping: "{player_ping}"
+   overflowFormat: "... and {overflow_count} more ..."
+   condition: "'{viewer_player_world}' == '{player_world}'" # player world must be same with viewer world
+uniquePlayerJoins:
+   type: PLAYER_LIST
+   sorter: "{player_is_online}"
+   skin: "{player_uuid}"
+   order: DESCEND
+   text: "{player_displayname}"
+   ping: "{pingChecker}"
+   overflowFormat: "... and {overflow_count} more ..."
+   includeOfflinePlayers: true
+staffs:
+   type: PLAYER_LIST
+   text:
+   - "&d{player_displayname} &7{player_ping}"
+   - "&f{player_displayname} &7{player_ping}"
+   refreshTicks: 20
+   overflowFormat:
+   - "&f... &aand {overflow_count} more &f..."
+   - "&f... &band {overflow_count} more &f..."
+   condition: "{player_has_permission_server.staff} || {player_is_op}"
+   sorter: "{player_group}"
+   skin: "{player_uuid}"
+   ping: 0 # >:D staff has no lagg
+   order: ASCEND # default ASCEND
+   grouping:
+      groupName: "GLOBAL"
+      priority: 1
+operators:
+   type: PLAYER_LIST
+   condition: "{player_is_op}"
+   text: "&c{player_displayname} &7{player_ping}"
+   sorter: "{player_displayname}"
+   header: "&c&lOPERATORS"
+   skin: "{player_name}"
+   hideEmpty: true
+   order: ASCEND
+   ping: "{player_ping}"
+   overflowFormat: "... and {overflow_count} more ..."
+   grouping:
+      groupName: "GLOBAL"
+      priority: 2
+worlds:
+   type: WORLD_LIST
+   text: "{world_name} &e{world_player_count}"
+   condition: "{viewer_player_has_permission_server.viewworld.{world_name}}"
+   header: "&e&lSERVER WORLDS"
+   sorter: "{world_name}"
+   overflowFormat: "... and {overflow_count} more ..."
+groupedWorld:
+   type: WORLD_LIST
+   text: "{world_name} &e{world_player_count}"
+   overflowFormat: "... and {overflow_count} more ..."
+   # add world that aren't listed below to the list
+   # same as worldname: "worldname"
+   addNotListed: true
+   hideEmpty: false
+   groups:
+      Lobby:
+      - "world"
+      - "world_nether"
+      - "world_the_end"
+      Survival: 
+      - "survival"
+      - "survival_nether"
+      - "survival_the_end"
+      Creative: "creative"
+      Limbo: "limbo"
+servers:
+   type: SERVER_LIST
+   condition: "{viewer_player_has_permission_server.viewserver.{server_name}}"
+   text: "{server_name} &e{server_player_count}/{server_max_players}"
+   sorter: "{server_is_online}"
+   overflowFormat: "... and {overflow_count} more ..."
+serversHideOffline:
+   type: SERVER_LIST
+   condition: "{server_is_online} && {viewer_player_has_permission_server.viewserver.{server_name}}"
+   overflowFormat: "... and {overflow_count} more ..."
+serverPlayers:
+   type: SERVER_REMOTE_HANDLER
+   server: "lobby"
+   handler: players
+   refreshTicks: 20 # fetch data every 1 second
+   overflowFormat: "... and {overflow_count} more ..."
+globalPlayers:
+   type: BUNGEECORD_PLAYER_LIST
+   text: "{proxiedplayer_displayname}"
+   ping: "{proxiedplayer_ping}"
+   sorter: "{proxiedplayer_name}"
+   overflowFormat: "... and {overflow_count} more ..."
+   skin: "{proxiedplayer_uuid}"
+   refreshTicks: 20 # fetch data every 1 second
+   # condition:
+   order: ASCEND
+   # grouping is not available
+dynamicSlots:
+   type: COMPOUND
+   overflowFormat: "... and {overflow_count} more ..."
+   refreshTicks: 20 # for overflowFormat only
+   items:
+      operators:
+         fixedSize: -1
+      players:
+         fixedSize: 200

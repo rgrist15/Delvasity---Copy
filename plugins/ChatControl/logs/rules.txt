@@ -1,0 +1,9 @@
+[11.09.2020 21:13:17] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[11.09.2020 21:13:27] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op delvasity
+[11.09.2020 21:53:24] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[12.09.2020 10:13:22] Delvasity: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 0
+[12.09.2020 10:13:58] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[12.09.2020 10:17:23] Delvasity: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gamemode 0
+[12.09.2020 10:17:47] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[12.09.2020 10:25:29] Delvasity: Rule {ID=/op,Match='^/op\b'} caught message: /op
+[13.09.2020 22:16:07] Robanomi: Rule {ID=/gm,Match='^/(gm|gamemode)'} caught message: /gm 1

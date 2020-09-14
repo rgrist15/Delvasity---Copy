@@ -1,0 +1,15 @@
+playername: Peacaa
+lang: en_US
+minerate-full-mined: 33
+minerate:
+  diamond: 0
+  gold: 0
+  iron: 0
+  coal: 0
+  ancient debris: 0
+better-click: 4
+cheats:
+  fly: 1
+  timer: 73
+  blink: 1
+creation-time: 1599765781044

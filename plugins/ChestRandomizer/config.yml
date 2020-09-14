@@ -1,0 +1,119 @@
+default-world: world
+chests:
+  chest-list:
+    - chest-1
+    - chest-2
+    - chest-3
+    - chest-4
+    - chest-5
+  chest-1:
+    x: 371
+    y: 63
+    z: 202
+    tier: common
+    region: arena-1
+  chest-2:
+    x: 163
+    y: 20
+    z: 237
+    tier: rare
+    region: arena-1
+  chest-3:
+    x: 320
+    y: 23
+    z: 716
+    tier: very-rare
+    region: arena-1
+    world: world_nether
+  chest-4:
+    x: 1075
+    y: 44
+    z: 1516
+    tier: random
+  chest-5:
+    x: 1077
+    y: 44
+    z: 1516
+    tier: random-2
+tiers:
+  common:
+    min-items: 3
+    max-items: 6
+    items:
+      - WOODEN_SWORD
+      - STONE_SWORD
+      - WOODEN_AXE
+      - LEATHER_HELMET
+      - LEATHER_CHESTPLATE
+      - LEATHER_LEGGINGS
+      - LEATHER_BOOTS
+      - GOLDEN_HELMET
+      - GOLDEN_CHESTPLATE
+      - GOLDEN_LEGGINGS
+      - GOLDEN_BOOTS
+      - APPLE
+      - MELON
+      - BEEF
+  uncommon:
+    min-items: 2
+    max-items: 4
+    items:
+      - STONE_SWORD
+      - IRON_SWORD
+      - STONE_AXE
+      - IRON_HELMET
+      - IRON_CHESTPLATE
+      - IRON_LEGGINGS
+      - IRON_BOOTS
+      - CHAINMAIL_HELMET
+      - CHAINMAIL_CHESTPLATE
+      - CHAINMAIL_LEGGINGS
+      - CHAINMAIL_BOOTS
+      - BAKED_POTATO
+      - BREAD
+      - CARROT
+      - COOKED_RABBIT
+      - COOKED_CHICKEN
+  rare:
+    min-items: 1
+    max-items: 3
+    items:
+      - IRON_SWORD
+      - IRON_AXE
+      - SHIELD
+      - DIAMOND_HELMET
+      - DIAMOND_BOOTS
+      - DIAMOND_SWORD
+      - COOKED_MUTTON
+      - COOKED_RABBIT
+      - COOKED_CHICKEN
+      - COOKED_PORKCHOP
+      - COOKED_SALMON
+      - COOKED_BEEF
+  very-rare:
+    min-items: 1
+    max-items: 2
+    items:
+      - DIAMOND_SWORD
+      - SHIELD
+      - NETHERITE_HELMET
+      - DIAMOND_CHESTPLATE
+      - DIAMOND_LEGGINGS
+      - GOLDEN_APPLE
+      - GOLDEN_CARROT
+  random:
+    list:
+      - common
+      - uncommon
+    common:
+      percent: 33
+    uncommon:
+      percent: 67
+  random-2:
+    list:
+      - rare
+      - very-rare
+    rare:
+      percent: 33
+    very-rare:
+      percent: 67

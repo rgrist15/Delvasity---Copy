@@ -1,0 +1,8 @@
+2020-09-10 17:55:59.822: (48ms) 85% TIMER > Flying: 0, position: 11, look: 0, positionLook: 59, sum: 30.0, median: 20. Player version: HIGHER. TPS: [20.023155541347585, 20.011623656220117, 20.005333631821205]
+2020-09-13 17:48:37.162: (127ms) 84% TIMER > Flying: 0, position: 104, look: 9, positionLook: 117, sum: 60.0, median: 18. Player version: HIGHER. TPS: [19.69516265899395, 20.005368271953554, 20.17735138270069]
+2020-09-13 17:48:39.117: (127ms) 84% TIMER > Flying: 0, position: 3, look: 1, positionLook: 8, sum: 59.0, median: 18. Player version: HIGHER. TPS: [19.69516265899395, 20.005368271953554, 20.17735138270069]
+2020-09-13 17:48:40.11: (106ms) 84% TIMER > Flying: 0, position: 13, look: 14, positionLook: 14, sum: 63.0, median: 18. Player version: HIGHER. TPS: [19.69516265899395, 20.005368271953554, 20.17735138270069]
+2020-09-13 17:48:41.24: (106ms) 84% TIMER > Flying: 0, position: 8, look: 1, positionLook: 2, sum: 62.0, median: 18. Player version: HIGHER. TPS: [19.69516265899395, 20.005368271953554, 20.17735138270069]
+2020-09-13 17:48:42.153: (106ms) 84% TIMER > Flying: 0, position: 1, look: 0, positionLook: 18, sum: 62.0, median: 19. Player version: HIGHER. TPS: [19.69516265899395, 20.005368271953554, 20.17735138270069]
+2020-09-13 17:52:07.875: (88ms) 85% TIMER > Flying: 0, position: 19, look: 0, positionLook: 10, sum: 49.0, median: 23. Player version: HIGHER. TPS: [20.15842513718365, 20.139580752606193, 20.198824102903696]
+2020-09-13 17:52:10.137: (88ms) 85% TIMER > Flying: 0, position: 10, look: 0, positionLook: 0, sum: 47.0, median: 23. Player version: HIGHER. TPS: [20.15842513718365, 20.139580752606193, 20.198824102903696]

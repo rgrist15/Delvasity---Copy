@@ -1,0 +1,36 @@
+jails: 
+  jail: 
+    world: world_nether
+    x: -273.5464552211877
+    y: 82.0
+    z: -947.2686133058801
+    yaw: 282.82047
+    pitch: 7.350018
+  so_close_so_far: 
+    world: world_nether
+    x: -105.45938783261505
+    y: 95.0
+    z: -927.6999999880791
+    yaw: -1.2814941
+    pitch: 48.149582
+  monster: 
+    world: world_nether
+    x: 56.46235484523237
+    y: 56.0
+    z: -943.5509398808582
+    yaw: 17.458063
+    pitch: 7.3499694
+  monster2: 
+    world: world_nether
+    x: 56.521309429321576
+    y: 49.0
+    z: -943.4981315086113
+    yaw: 38.752014
+    pitch: 87.89998
+  pvp: 
+    world: PvP
+    x: -370.48871635586636
+    y: 63.0
+    z: 78.32787090849848
+    yaw: -358.51385
+    pitch: 7.499997
